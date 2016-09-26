@@ -1,0 +1,77 @@
+header {
+  background-image: url('gplaypattern.png');
+  text-align: center;
+  width: 100%;
+  margin-top: -20px;
+}
+
+body {
+  margin: 0;
+  font-family: georgia, serif, helvetica, arial;
+}
+
+// background_image {
+//   width: 100%;
+//   text-align: center;
+// }
+
+// .info {
+//   position: absolute;
+//   top: 50px;
+//   width: 100%;
+// }
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  h1 {
+    padding: 90px;
+  }
+
+  .info {
+    width: 100%;
+
+    img {
+      width: 40px;
+    }
+  }
+
+  h2 {
+
+    font-size: 3em;
+    width: 75%;
+    border-bottom: 6px black solid;
+    text-align: center;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  .info {
+    width: 100%;
+
+    p {
+      text-align: center;
+      max-width: 800px;
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
